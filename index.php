@@ -25,7 +25,7 @@ if (isset($_POST["pass"])){
     echo "<script>alert('Login successful')</script>";
     session_start();
     $_SESSION['idusuario'] = $pw;
-    header("Location: infos.php");
+    header("Location: mainpage.php");
   }else{
     echo "<script>alert('Password incorrect.')</script>";
   }

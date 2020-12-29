@@ -3,6 +3,7 @@ html{
   margin: 0;
   background-color: #1e272e;
 }
+/* ---- INDEX ---- */
 #center {
   text-align: center;
   width: 400px;
@@ -28,3 +29,68 @@ html{
   width: 90px;
   height: 25px;
 }
+
+/* --- MAINPAGE ---- */
+#option {
+  text-align: center;
+}
+#option select{
+  background-color: #d2dae2;
+  margin-top: 10px;
+  border-style: none;
+  border-radius: 2px;
+  width: 120px;
+  height: 25px;
+}
+#option button{
+  background-color: #d2dae2;
+  margin-top: 10px;
+  margin-bottom: 30px;
+  border-style: none;
+  border-radius: 4px;
+  width: 90px;
+  height: 25px;
+}
+
+#data_table{
+  color: white;
+  text-align: center;
+  width: 500px;
+  margin: auto;
+}
+#data_table table{
+  margin: auto;
+  text-align: center;
+  width: 400px;
+}
+th, td{
+  border-bottom: 1px solid white;
+}
+tr:hover{
+  background-color: #34495e;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/**/
